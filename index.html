@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishan Vir Singh — iOS Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">KVS</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-blob blob-1"></div>
+      <div class="hero-blob blob-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Available for Senior Roles
+      </div>
+      <h1 class="hero-name reveal">Krishan Vir<br /><span class="gradient-text">Singh</span></h1>
+      <p class="hero-role reveal">
+        iOS Developer &amp; <span class="typewriter" id="typewriter"></span>
+      </p>
+      <p class="hero-summary reveal">
+        9+ years shipping production iOS apps. Currently building
+        <strong>Apple Intelligence</strong> and <strong>on-device AI agents</strong>
+        at SAP Labs.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="../Krishan_Resume.pdf" download class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+        <a href="#experience" class="btn btn-ghost">View Work</a>
+      </div>
+      <div class="hero-meta reveal">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Pune, India
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+          SAP Labs
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          9 Years Exp.
+        </span>
+        <a href="https://www.linkedin.com/in/krishan-vir-singh-0b154183/" target="_blank" rel="noopener" class="hero-meta-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/virkrishna786" target="_blank" rel="noopener" class="hero-meta-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2>Building the future of<br /><span class="gradient-text">iOS at enterprise scale.</span></h2>
+          <p>
+            I'm a Senior iOS Developer who's spent the last 9+ years turning complex requirements into
+            apps people actually enjoy using. My current focus is at the intersection of
+            <strong>Swift, SwiftUI, and Apple Intelligence</strong> — building AI agents
+            that make enterprise sales workflows smarter.
+          </p>
+          <p>
+            At SAP Labs, I've shipped everything from a full greenfield Sales app to
+            on-device LLM-powered features using Apple's Foundation Models framework —
+            work that puts the power of AI directly in the hands of field sales reps,
+            even offline.
+          </p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <span class="stat-number">9+</span>
+            <span class="stat-label">Years iOS Dev</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">7</span>
+            <span class="stat-label">Companies</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">4</span>
+            <span class="stat-label">AI Agents Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">iOS 18</span>
+            <span class="stat-label">Foundation Models</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label reveal">Experience</div>
+      <h2 class="section-title reveal">Where I've Worked</h2>
+
+      <div class="timeline">
+
+        <!-- SAP Labs -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="marker-dot active"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-card featured">
+            <div class="card-header">
+              <div class="card-company">
+                <div class="company-logo sap">SAP</div>
+                <div>
+                  <h3>SAP Labs Pvt Limited</h3>
+                  <p class="card-role">Developer — iOS</p>
+                </div>
+              </div>
+              <div class="card-meta">
+                <span class="card-date">Apr 2021 – Present</span>
+                <span class="card-location">Bengaluru</span>
+                <span class="badge-current">Current</span>
+              </div>
+            </div>
+            <ul class="card-bullets">
+              <li>Spearheaded development of a new Sales app from scratch using SwiftUI and Combine, resulting in a 20% increase in sales team efficiency.</li>
+              <li class="ai-bullet">
+                <span class="ai-tag">AI</span>
+                Built an on-device AI accessibility agent using Apple Foundation Models and VoiceOver APIs, enabling visually impaired field sales reps to navigate the app fully hands-free.
+              </li>
+              <li class="ai-bullet">
+                <span class="ai-tag">AI</span>
+                Developed a structure-understanding agent that parses customer account hierarchy, open deals, and visit history to surface contextually relevant data without manual navigation.
+              </li>
+              <li class="ai-bullet">
+                <span class="ai-tag">Siri</span>
+                Integrated SiriKit and the App Intents framework to enable voice-driven appointment and visit management, reducing manual data entry for reps working in the field.
+              </li>
+              <li class="ai-bullet">
+                <span class="ai-tag">Apple Intelligence</span>
+                Implemented an Apple Intelligence pre-brief feature using on-device Foundation Models that auto-summarizes customer history, open pipeline, and prior visit notes before each appointment.
+              </li>
+              <li>Implemented Caller ID and SSO Sign-In features, enhancing user experience and security.</li>
+              <li>Architected the app using MVVM and protocol-oriented programming, improving code maintainability and testability.</li>
+              <li>Wrote comprehensive unit tests and participated in code reviews on GitHub, contributing to a 15% reduction in bug reports.</li>
+            </ul>
+            <div class="card-tags">
+              <span>SwiftUI</span><span>Combine</span><span>Apple Intelligence</span>
+              <span>SiriKit</span><span>App Intents</span><span>Foundation Models</span><span>MVVM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quess Corp -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <div class="card-company">
+                <div class="company-logo quess">QC</div>
+                <div>
+                  <h3>Quess Corp Limited</h3>
+                  <p class="card-role">iOS Developer</p>
+                </div>
+              </div>
+              <div class="card-meta">
+                <span class="card-date">May 2020 – Apr 2021</span>
+              </div>
+            </div>
+            <ul class="card-bullets">
+              <li>Developed key features for the Sales app using OData and RxSwift, improving data synchronization speed by 25%.</li>
+              <li>Resolved critical incidents in a hybrid application, minimizing downtime and ensuring business continuity.</li>
+              <li>Enhanced application reliability by adding comprehensive unit tests, reducing crash rates by 10%.</li>
+            </ul>
+            <div class="card-tags">
+              <span>RxSwift</span><span>OData</span><span>Unit Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CognitiveClouds -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <div class="card-company">
+                <div class="company-logo cc">CC</div>
+                <div>
+                  <h3>CognitiveClouds Software</h3>
+                  <p class="card-role">Software Engineer</p>
+                </div>
+              </div>
+              <div class="card-meta">
+                <span class="card-date">Oct 2019 – Mar 2020</span>
+              </div>
+            </div>
+            <ul class="card-bullets">
+              <li>Developed video call and screen sharing features, increasing user engagement by 30%.</li>
+              <li>Implemented push notifications and UI testing, improving user retention and app stability.</li>
+            </ul>
+            <div class="card-tags">
+              <span>WebRTC</span><span>Push Notifications</span><span>UI Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobi Serve -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+            <div class="marker-line"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <div class="card-company">
+                <div class="company-logo mobi">MS</div>
+                <div>
+                  <h3>Mobi Serve (Micromax)</h3>
+                  <p class="card-role">iOS Developer</p>
+                </div>
+              </div>
+              <div class="card-meta">
+                <span class="card-date">Jul 2018 – Oct 2019</span>
+              </div>
+            </div>
+            <ul class="card-bullets">
+              <li>Built an OTT video streaming app using AVPlayer, delivering a high-quality viewing experience.</li>
+              <li>Implemented analytics and a WiFi-enabled protocol server.</li>
+              <li>Integrated IoT (Raspberry Pi) for content fetching.</li>
+            </ul>
+            <div class="card-tags">
+              <span>AVPlayer</span><span>IoT</span><span>Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Earlier roles collapsed -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="marker-dot"></div>
+          </div>
+          <div class="timeline-card earlier">
+            <p class="earlier-label">Earlier Experience (2014–2018)</p>
+            <div class="earlier-grid">
+              <div class="earlier-item">
+                <strong>Vayam Technologies</strong>
+                <span>Software Engineer · Nov 2017–Jul 2018</span>
+                <p>Employee Management app, REST APIs, news feature.</p>
+              </div>
+              <div class="earlier-item">
+                <strong>Visit Internet Services</strong>
+                <span>iOS Developer · Jun–Oct 2016</span>
+                <p>Telehealth app with PubNub SDK and Paytm Wallet.</p>
+              </div>
+              <div class="earlier-item">
+                <strong>Quickli Technologies</strong>
+                <span>iOS Developer · Dec 2014–May 2016</span>
+                <p>Delivery order app in Swift & Objective-C with Firebase and Razorpay.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">Skills</div>
+      <h2 class="section-title reveal">Technical Stack</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <h4>Core iOS</h4>
+          <div class="skill-tags">
+            <span class="tag primary">Swift</span>
+            <span class="tag primary">SwiftUI</span>
+            <span class="tag primary">Combine</span>
+            <span class="tag">Objective-C</span>
+            <span class="tag">Xcode</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>AI &amp; Platform</h4>
+          <div class="skill-tags">
+            <span class="tag ai">Apple Intelligence</span>
+            <span class="tag ai">Foundation Models</span>
+            <span class="tag ai">SiriKit</span>
+            <span class="tag ai">App Intents</span>
+            <span class="tag ai">VoiceOver</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>Architecture</h4>
+          <div class="skill-tags">
+            <span class="tag">MVVM</span>
+            <span class="tag">Protocol-Oriented</span>
+            <span class="tag">RxSwift</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">OData</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>Tools &amp; Workflow</h4>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">JIRA</span>
+            <span class="tag">ServiceNow</span>
+            <span class="tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>Testing</h4>
+          <div class="skill-tags">
+            <span class="tag">XCTest</span>
+            <span class="tag">Unit Testing</span>
+            <span class="tag">UI Testing</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>Other</h4>
+          <div class="skill-tags">
+            <span class="tag">React Native</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">SDK Integration</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label reveal">Education</div>
+      <h2 class="section-title reveal">Academic Background</h2>
+      <div class="edu-card reveal">
+        <div class="edu-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <div class="edu-info">
+          <h3>Uttar Pradesh Technical University (UPTU)</h3>
+          <p class="edu-degree">B.Tech – Information Technology</p>
+          <p class="edu-location">Mathura</p>
+        </div>
+        <div class="edu-year">2013</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="section-label">Get In Touch</div>
+        <h2>Let's work<br /><span class="gradient-text">together.</span></h2>
+        <p>Open to senior iOS, Apple Intelligence, or mobile AI roles. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:mailkrishanvir@gmail.com" class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            mailkrishanvir@gmail.com
+          </a>
+          <a href="tel:+919821273661" class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +91 98212 73661
+          </a>
+          <a href="https://www.linkedin.com/in/krishan-vir-singh-0b154183/" target="_blank" rel="noopener" class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/virkrishna786" target="_blank" rel="noopener" class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+        <a href="../Krishan_Resume.pdf" download class="btn btn-primary" style="margin-top:2rem">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Full Resume (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Krishan Vir Singh · Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
